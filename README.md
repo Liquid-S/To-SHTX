@@ -2,6 +2,7 @@
 ### From PNG to SHTX/SHTXFS/SHTXFs/SHTXFF/SHTXFf
 
 SHTX/FS converter for PSVITA, written by https://github.com/yukinogatari
+
 Updated by Liquid S! to make it compatible with PC games and SHTXFs, SHTXFF and SHTXFf.  
 
 # Requirements
