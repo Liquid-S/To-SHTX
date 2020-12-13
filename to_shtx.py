@@ -46,7 +46,7 @@ def to_BTX(filename, out_file = None):
   if (len(QImage(filename).colorTable()) > 256 or len(QImage(filename).colorTable()) == 0) and not args.SHTXFF and not args.SHTXFf and not ".SHTXFF" in filename and not ".SHTXFf" in filename and not ".shtxff" in filename:
     process = QProcess()
     if args.SHTX or ".SHTX." in out_file or ".shtx." in filename:
-      options = ["--force", "--speed", "1", "256", "--output", TEMP_FILE, filename]
+      options = ["--force", "--speed", "1", "16", "--output", TEMP_FILE, filename]
     else:
       options = ["--force", "--speed", "1", "256", "--output", TEMP_FILE, filename]
     process.start(QUANT_PATH, options)
